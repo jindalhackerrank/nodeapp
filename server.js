@@ -157,7 +157,7 @@ router.route('/doctor')
 
 
 app.use('/api', router);
-app.use("/public", express.static("/var/www/html/ashish/" + "/public"));
+app.use("/public", express.static("/var/www/html/ashish/"));
 
 // START THE SERVER
 // =============================================================================
